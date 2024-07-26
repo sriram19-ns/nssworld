@@ -4,7 +4,7 @@ import {FaShoppingCart, FaUser } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <Header>
+    <header>
         <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
             <Container>
                 <Navbar.Brand href="/">NSSWorld</Navbar.Brand>
@@ -19,7 +19,7 @@ const Header = () => {
             </Container>
         
         </Navbar>
-    </Header>
+    </header>
   )
 }
 
